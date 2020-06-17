@@ -25,6 +25,7 @@ struct App {
         
         let appearance = UINavigationBarAppearance()
         appearance.backgroundColor = UIColor(named: "clr_main")
+        appearance.shadowColor = .clear
         appearance.titleTextAttributes = [.foregroundColor: UIColor.white, .font: UIFont.systemFont(ofSize: 18, weight: .medium)]
         appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white, .font: UIFont.systemFont(ofSize: 24, weight: .medium)]
         
