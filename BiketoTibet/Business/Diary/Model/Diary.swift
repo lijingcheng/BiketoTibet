@@ -3,17 +3,19 @@
 //  BiketoTibet
 //
 //  Created by 李京城 on 2020/3/30.
-//  Copyright © 2020 lijingcheng. All rights reserved.
 //
 
-import Foundation
 import SwiftUI
 
-struct Diary: Codable, Identifiable {
+enum Weather: String, Codable {
+    case sunny, rain, snow, sunny_snow, sunny_rain, sunny_cloudy, rain_snow
+}
+
+struct Diary: Codable, Identifiable, Hashable {
     var id: String?
     var title: String?
     var content: String?
-    var weather: String?
+    var weather: Weather?
     var tags: [String]?
     var date: Date?
     var photos: [String]?
@@ -25,7 +27,7 @@ struct Diary: Codable, Identifiable {
         id = UUID().uuidString
         title = try? container.decode(String.self, forKey: .title)
         content = try? container.decode(String.self, forKey: .content)
-        weather = try? container.decode(String.self, forKey: .weather)
+        weather = try? container.decode(Weather.self, forKey: .weather)
         
         if let tagsStr = try? container.decode(String.self, forKey: .tags) {
             tags = tagsStr.components(separatedBy: ",")
@@ -35,12 +37,18 @@ struct Diary: Codable, Identifiable {
             date = dateStr.date()
             
             if let photosStr = try? container.decode(String.self, forKey: .photos) {
-                photos = photosStr.components(separatedBy: ",").map({ "\(App.imageHost)\(dateStr)/\(dateStr)_\($0)-small.jpeg" })
+                photos = photosStr.components(separatedBy: ",").map({ "\(AppHelper.imageHost)\(dateStr)/\(dateStr)_\($0)-small.jpeg" })
             }
             
             if let coverStr = try? container.decode(String.self, forKey: .cover) {
-                cover = "\(App.imageHost)\(dateStr)/\(dateStr)_\(coverStr)-small.jpeg"
+                cover = "\(AppHelper.imageHost)\(dateStr)/\(dateStr)_\(coverStr)-small.jpeg"
             }
         }
+    }
+}
+
+struct Diary_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }

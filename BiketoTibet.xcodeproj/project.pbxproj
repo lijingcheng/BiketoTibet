@@ -7,202 +7,177 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		198D8477343A6A64FA65EA2A /* libPods-BiketoTibet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A8B8788A57F0D29D9E107F /* libPods-BiketoTibet.a */; };
-		F302D07D24625C1B00E38C87 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302D07A24625C1B00E38C87 /* StringExt.swift */; };
-		F302D07E24625C1B00E38C87 /* DataExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302D07B24625C1B00E38C87 /* DataExt.swift */; };
-		F302D07F24625C1B00E38C87 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302D07C24625C1B00E38C87 /* DateExt.swift */; };
-		F302D1232469A10C00E38C87 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302D1222469A10C00E38C87 /* HostingController.swift */; };
-		F312BC372456C89700FBC346 /* diary.json in Resources */ = {isa = PBXBuildFile; fileRef = F312BC362456C89700FBC346 /* diary.json */; };
-		F312BC3D2456CF4100FBC346 /* DiaryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312BC3C2456CF4100FBC346 /* DiaryList.swift */; };
-		F362EFEE2429E9F600F5F312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362EFED2429E9F600F5F312 /* AppDelegate.swift */; };
-		F362EFF02429E9F600F5F312 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362EFEF2429E9F600F5F312 /* SceneDelegate.swift */; };
-		F362F07A2429FE7400F5F312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F362F0782429FE7400F5F312 /* LaunchScreen.storyboard */; };
-		F362F0802429FE8300F5F312 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F362F07D2429FE8300F5F312 /* Preview Assets.xcassets */; };
-		F362F0812429FE8300F5F312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F362F07E2429FE8300F5F312 /* Assets.xcassets */; };
-		F362F10F2429FEE900F5F312 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F362F10E2429FEE900F5F312 /* README.md */; };
-		F362FA5D24319D4500F5F312 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362FA5C24319D4500F5F312 /* Diary.swift */; };
-		F362FA6124319D7E00F5F312 /* DiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362FA6024319D7E00F5F312 /* DiaryViewModel.swift */; };
-		F362FA6424319DED00F5F312 /* DiaryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362FA6324319DED00F5F312 /* DiaryRow.swift */; };
-		F3B544532431B55D0077BE77 /* DiaryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B544522431B55D0077BE77 /* DiaryDetail.swift */; };
-		F3B544552431C41E0077BE77 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B544542431C41E0077BE77 /* SplashView.swift */; };
-		F3E1C86E243EF0670014FC5A /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1C86D243EF0670014FC5A /* App.swift */; };
+		2414DF5891594485E12159A3 /* libPods-BiketoTibet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD96F835E2E187632866E6B /* libPods-BiketoTibet.a */; };
+		F3BD2F5C2582148F00321FEB /* BiketoTibetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD2F5B2582148F00321FEB /* BiketoTibetApp.swift */; };
+		F3BD2F632582149200321FEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BD2F622582149200321FEB /* Preview Assets.xcassets */; };
+		F3BD2F7625821F4900321FEB /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD2F7325821F4800321FEB /* DateExt.swift */; };
+		F3BD2F7725821F4900321FEB /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD2F7425821F4800321FEB /* StringExt.swift */; };
+		F3BD2F7825821F4900321FEB /* DataExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD2F7525821F4800321FEB /* DataExt.swift */; };
+		F3BD2F7B25821F7700321FEB /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD2F7A25821F7700321FEB /* AppHelper.swift */; };
+		F3BD2F832582223D00321FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BD2F822582223D00321FEB /* Assets.xcassets */; };
+		F3BD2F88258222BD00321FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BD2F87258222BD00321FEB /* LaunchScreen.storyboard */; };
+		F3BD2F8B258222C900321FEB /* diary.json in Resources */ = {isa = PBXBuildFile; fileRef = F3BD2F8A258222C900321FEB /* diary.json */; };
+		F3BD2F8E258222D100321FEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F3BD2F8D258222D100321FEB /* README.md */; };
+		F3BD3221258701D800321FEB /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD3220258701D800321FEB /* Diary.swift */; };
+		F3BD3225258701E500321FEB /* DiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD3224258701E500321FEB /* DiaryViewModel.swift */; };
+		F3BD3228258701F100321FEB /* DiaryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD3227258701F100321FEB /* DiaryList.swift */; };
+		F3BD322B258701FA00321FEB /* DiaryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD322A258701FA00321FEB /* DiaryRow.swift */; };
+		F3BD322E2587020200321FEB /* DiaryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD322D2587020200321FEB /* DiaryDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0591CFC5ED62510A3F1E8692 /* Pods-BiketoTibet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiketoTibet.release.xcconfig"; path = "Target Support Files/Pods-BiketoTibet/Pods-BiketoTibet.release.xcconfig"; sourceTree = "<group>"; };
-		2854A26D7F2E19E8BA64FF44 /* Pods-BiketoTibet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiketoTibet.debug.xcconfig"; path = "Target Support Files/Pods-BiketoTibet/Pods-BiketoTibet.debug.xcconfig"; sourceTree = "<group>"; };
-		88A8B8788A57F0D29D9E107F /* libPods-BiketoTibet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiketoTibet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F302D07A24625C1B00E38C87 /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
-		F302D07B24625C1B00E38C87 /* DataExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExt.swift; sourceTree = "<group>"; };
-		F302D07C24625C1B00E38C87 /* DateExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
-		F302D1222469A10C00E38C87 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
-		F312BC362456C89700FBC346 /* diary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = diary.json; sourceTree = "<group>"; };
-		F312BC3C2456CF4100FBC346 /* DiaryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryList.swift; sourceTree = "<group>"; };
-		F362EFEA2429E9F600F5F312 /* BiketoTibet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiketoTibet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F362EFED2429E9F600F5F312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F362EFEF2429E9F600F5F312 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F362F0792429FE7400F5F312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F362F07B2429FE8300F5F312 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F362F07D2429FE8300F5F312 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F362F07E2429FE8300F5F312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F362F10E2429FEE900F5F312 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		F362FA5C24319D4500F5F312 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
-		F362FA6024319D7E00F5F312 /* DiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewModel.swift; sourceTree = "<group>"; };
-		F362FA6324319DED00F5F312 /* DiaryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryRow.swift; sourceTree = "<group>"; };
-		F3B544522431B55D0077BE77 /* DiaryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetail.swift; sourceTree = "<group>"; };
-		F3B544542431C41E0077BE77 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		F3E1C86D243EF0670014FC5A /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		6DD96F835E2E187632866E6B /* libPods-BiketoTibet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiketoTibet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		959A5F828F2362E519546A75 /* Pods-BiketoTibet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiketoTibet.release.xcconfig"; path = "Target Support Files/Pods-BiketoTibet/Pods-BiketoTibet.release.xcconfig"; sourceTree = "<group>"; };
+		E1DD8A168DC8F3DACD2F9592 /* Pods-BiketoTibet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiketoTibet.debug.xcconfig"; path = "Target Support Files/Pods-BiketoTibet/Pods-BiketoTibet.debug.xcconfig"; sourceTree = "<group>"; };
+		F3BD2F582582148F00321FEB /* BiketoTibet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiketoTibet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BD2F5B2582148F00321FEB /* BiketoTibetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiketoTibetApp.swift; sourceTree = "<group>"; };
+		F3BD2F622582149200321FEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3BD2F642582149200321FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BD2F7325821F4800321FEB /* DateExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
+		F3BD2F7425821F4800321FEB /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		F3BD2F7525821F4800321FEB /* DataExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExt.swift; sourceTree = "<group>"; };
+		F3BD2F7A25821F7700321FEB /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		F3BD2F822582223D00321FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3BD2F87258222BD00321FEB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3BD2F8A258222C900321FEB /* diary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = diary.json; sourceTree = "<group>"; };
+		F3BD2F8D258222D100321FEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F3BD3220258701D800321FEB /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		F3BD3224258701E500321FEB /* DiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewModel.swift; sourceTree = "<group>"; };
+		F3BD3227258701F100321FEB /* DiaryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryList.swift; sourceTree = "<group>"; };
+		F3BD322A258701FA00321FEB /* DiaryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryRow.swift; sourceTree = "<group>"; };
+		F3BD322D2587020200321FEB /* DiaryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F362EFE72429E9F600F5F312 /* Frameworks */ = {
+		F3BD2F552582148F00321FEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				198D8477343A6A64FA65EA2A /* libPods-BiketoTibet.a in Frameworks */,
+				2414DF5891594485E12159A3 /* libPods-BiketoTibet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		371D9DD1B43EE7796AF1C310 /* Frameworks */ = {
+		848CB58584287DBD79EC2472 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				88A8B8788A57F0D29D9E107F /* libPods-BiketoTibet.a */,
+				6DD96F835E2E187632866E6B /* libPods-BiketoTibet.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9B4BF3A564F0AEF390BE9FEF /* Pods */ = {
+		DCF3F9666EA8DC9897230FD2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2854A26D7F2E19E8BA64FF44 /* Pods-BiketoTibet.debug.xcconfig */,
-				0591CFC5ED62510A3F1E8692 /* Pods-BiketoTibet.release.xcconfig */,
+				E1DD8A168DC8F3DACD2F9592 /* Pods-BiketoTibet.debug.xcconfig */,
+				959A5F828F2362E519546A75 /* Pods-BiketoTibet.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		F362EFE12429E9F500F5F312 = {
+		F3BD2F4F2582148F00321FEB = {
 			isa = PBXGroup;
 			children = (
-				F362EFEC2429E9F600F5F312 /* BiketoTibet */,
-				F362EFEB2429E9F600F5F312 /* Products */,
-				9B4BF3A564F0AEF390BE9FEF /* Pods */,
-				371D9DD1B43EE7796AF1C310 /* Frameworks */,
+				F3BD2F5A2582148F00321FEB /* BiketoTibet */,
+				F3BD2F592582148F00321FEB /* Products */,
+				DCF3F9666EA8DC9897230FD2 /* Pods */,
+				848CB58584287DBD79EC2472 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		F362EFEB2429E9F600F5F312 /* Products */ = {
+		F3BD2F592582148F00321FEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F362EFEA2429E9F600F5F312 /* BiketoTibet.app */,
+				F3BD2F582582148F00321FEB /* BiketoTibet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F362EFEC2429E9F600F5F312 /* BiketoTibet */ = {
+		F3BD2F5A2582148F00321FEB /* BiketoTibet */ = {
 			isa = PBXGroup;
 			children = (
-				F362F0822429FE9200F5F312 /* Base */,
-				F362F0D22429FE9300F5F312 /* Extension */,
-				F362F0D72429FE9300F5F312 /* Component */,
-				F362F09E2429FE9300F5F312 /* Business */,
-				F362EFED2429E9F600F5F312 /* AppDelegate.swift */,
-				F362EFEF2429E9F600F5F312 /* SceneDelegate.swift */,
-				F362F10D2429FECD00F5F312 /* Supporting Files */,
+				F3BD2F6B2582167000321FEB /* Base */,
+				F3BD2F7025821EBE00321FEB /* Extension */,
+				F3BD2F7225821F0700321FEB /* Business */,
+				F3BD2F5B2582148F00321FEB /* BiketoTibetApp.swift */,
+				F3BD2F822582223D00321FEB /* Assets.xcassets */,
+				F3BD2F87258222BD00321FEB /* LaunchScreen.storyboard */,
+				F3BD2F8A258222C900321FEB /* diary.json */,
+				F3BD2F8D258222D100321FEB /* README.md */,
+				F3BD2F642582149200321FEB /* Info.plist */,
+				F3BD2F612582149200321FEB /* Preview Content */,
 			);
 			path = BiketoTibet;
 			sourceTree = "<group>";
 		};
-		F362F07C2429FE8300F5F312 /* Preview Content */ = {
+		F3BD2F612582149200321FEB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F362F07D2429FE8300F5F312 /* Preview Assets.xcassets */,
+				F3BD2F622582149200321FEB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F362F0822429FE9200F5F312 /* Base */ = {
+		F3BD2F6B2582167000321FEB /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				F3E1C86D243EF0670014FC5A /* App.swift */,
+				F3BD2F7A25821F7700321FEB /* AppHelper.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		F362F09E2429FE9300F5F312 /* Business */ = {
+		F3BD2F7025821EBE00321FEB /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F362F92C2431942E00F5F312 /* Diary */,
-			);
-			path = Business;
-			sourceTree = "<group>";
-		};
-		F362F0D22429FE9300F5F312 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				F302D07B24625C1B00E38C87 /* DataExt.swift */,
-				F302D07C24625C1B00E38C87 /* DateExt.swift */,
-				F302D07A24625C1B00E38C87 /* StringExt.swift */,
+				F3BD2F7325821F4800321FEB /* DateExt.swift */,
+				F3BD2F7425821F4800321FEB /* StringExt.swift */,
+				F3BD2F7525821F4800321FEB /* DataExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		F362F0D72429FE9300F5F312 /* Component */ = {
+		F3BD2F7225821F0700321FEB /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				F3B544542431C41E0077BE77 /* SplashView.swift */,
-				F302D1222469A10C00E38C87 /* HostingController.swift */,
+				F3BD321C258701B100321FEB /* Diary */,
 			);
-			path = Component;
+			path = Business;
 			sourceTree = "<group>";
 		};
-		F362F10D2429FECD00F5F312 /* Supporting Files */ = {
+		F3BD321C258701B100321FEB /* Diary */ = {
 			isa = PBXGroup;
 			children = (
-				F362F07C2429FE8300F5F312 /* Preview Content */,
-				F362F07E2429FE8300F5F312 /* Assets.xcassets */,
-				F362F0782429FE7400F5F312 /* LaunchScreen.storyboard */,
-				F312BC362456C89700FBC346 /* diary.json */,
-				F362F07B2429FE8300F5F312 /* Info.plist */,
-				F362F10E2429FEE900F5F312 /* README.md */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F362F92C2431942E00F5F312 /* Diary */ = {
-			isa = PBXGroup;
-			children = (
-				F362FA5B24319D2E00F5F312 /* Model */,
-				F362FA5A24319D2800F5F312 /* View */,
-				F362FA5924319D1E00F5F312 /* ViewModel */,
+				F3BD321F258701CC00321FEB /* Model */,
+				F3BD321E258701C400321FEB /* View */,
+				F3BD321D258701BD00321FEB /* ViewModel */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
 		};
-		F362FA5924319D1E00F5F312 /* ViewModel */ = {
+		F3BD321D258701BD00321FEB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				F362FA6024319D7E00F5F312 /* DiaryViewModel.swift */,
+				F3BD3224258701E500321FEB /* DiaryViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		F362FA5A24319D2800F5F312 /* View */ = {
+		F3BD321E258701C400321FEB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F312BC3C2456CF4100FBC346 /* DiaryList.swift */,
-				F362FA6324319DED00F5F312 /* DiaryRow.swift */,
-				F3B544522431B55D0077BE77 /* DiaryDetail.swift */,
+				F3BD3227258701F100321FEB /* DiaryList.swift */,
+				F3BD322A258701FA00321FEB /* DiaryRow.swift */,
+				F3BD322D2587020200321FEB /* DiaryDetail.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		F362FA5B24319D2E00F5F312 /* Model */ = {
+		F3BD321F258701CC00321FEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F362FA5C24319D4500F5F312 /* Diary.swift */,
+				F3BD3220258701D800321FEB /* Diary.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -210,15 +185,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F362EFE92429E9F600F5F312 /* BiketoTibet */ = {
+		F3BD2F572582148F00321FEB /* BiketoTibet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F362EFFE2429E9FB00F5F312 /* Build configuration list for PBXNativeTarget "BiketoTibet" */;
+			buildConfigurationList = F3BD2F672582149200321FEB /* Build configuration list for PBXNativeTarget "BiketoTibet" */;
 			buildPhases = (
-				2892864F2662A6026A979F59 /* [CP] Check Pods Manifest.lock */,
-				F362EFE62429E9F600F5F312 /* Sources */,
-				F362EFE72429E9F600F5F312 /* Frameworks */,
-				F362EFE82429E9F600F5F312 /* Resources */,
-				F362F1112429FF2A00F5F312 /* SwiftLint */,
+				4C1F83CC99ABF9E189852CDE /* [CP] Check Pods Manifest.lock */,
+				F3BD2F542582148F00321FEB /* Sources */,
+				F3BD2F552582148F00321FEB /* Frameworks */,
+				F3BD2F562582148F00321FEB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -226,25 +200,24 @@
 			);
 			name = BiketoTibet;
 			productName = BiketoTibet;
-			productReference = F362EFEA2429E9F600F5F312 /* BiketoTibet.app */;
+			productReference = F3BD2F582582148F00321FEB /* BiketoTibet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F362EFE22429E9F500F5F312 /* Project object */ = {
+		F3BD2F502582148F00321FEB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1140;
-				ORGANIZATIONNAME = lijingcheng;
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					F362EFE92429E9F600F5F312 = {
-						CreatedOnToolsVersion = 11.3.1;
+					F3BD2F572582148F00321FEB = {
+						CreatedOnToolsVersion = 12.1;
 					};
 				};
 			};
-			buildConfigurationList = F362EFE52429E9F500F5F312 /* Build configuration list for PBXProject "BiketoTibet" */;
+			buildConfigurationList = F3BD2F532582148F00321FEB /* Build configuration list for PBXProject "BiketoTibet" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -252,33 +225,33 @@
 				en,
 				Base,
 			);
-			mainGroup = F362EFE12429E9F500F5F312;
-			productRefGroup = F362EFEB2429E9F600F5F312 /* Products */;
+			mainGroup = F3BD2F4F2582148F00321FEB;
+			productRefGroup = F3BD2F592582148F00321FEB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F362EFE92429E9F600F5F312 /* BiketoTibet */,
+				F3BD2F572582148F00321FEB /* BiketoTibet */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F362EFE82429E9F600F5F312 /* Resources */ = {
+		F3BD2F562582148F00321FEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F312BC372456C89700FBC346 /* diary.json in Resources */,
-				F362F10F2429FEE900F5F312 /* README.md in Resources */,
-				F362F0802429FE8300F5F312 /* Preview Assets.xcassets in Resources */,
-				F362F0812429FE8300F5F312 /* Assets.xcassets in Resources */,
-				F362F07A2429FE7400F5F312 /* LaunchScreen.storyboard in Resources */,
+				F3BD2F88258222BD00321FEB /* LaunchScreen.storyboard in Resources */,
+				F3BD2F832582223D00321FEB /* Assets.xcassets in Resources */,
+				F3BD2F8E258222D100321FEB /* README.md in Resources */,
+				F3BD2F632582149200321FEB /* Preview Assets.xcassets in Resources */,
+				F3BD2F8B258222C900321FEB /* diary.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2892864F2662A6026A979F59 /* [CP] Check Pods Manifest.lock */ = {
+		4C1F83CC99ABF9E189852CDE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,66 +273,33 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F362F1112429FF2A00F5F312 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ \"${CONFIGURATION}\" == \"Debug\" ]; then\nif which swiftlint >/dev/null; then\n${PODS_ROOT}/SwiftLint/swiftlint\nswiftlint autocorrect\nelse\necho \"error: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nexit 1\nfi\nfi\n\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F362EFE62429E9F600F5F312 /* Sources */ = {
+		F3BD2F542582148F00321FEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F362EFEE2429E9F600F5F312 /* AppDelegate.swift in Sources */,
-				F362EFF02429E9F600F5F312 /* SceneDelegate.swift in Sources */,
-				F312BC3D2456CF4100FBC346 /* DiaryList.swift in Sources */,
-				F302D07E24625C1B00E38C87 /* DataExt.swift in Sources */,
-				F302D07D24625C1B00E38C87 /* StringExt.swift in Sources */,
-				F3E1C86E243EF0670014FC5A /* App.swift in Sources */,
-				F302D07F24625C1B00E38C87 /* DateExt.swift in Sources */,
-				F302D1232469A10C00E38C87 /* HostingController.swift in Sources */,
-				F362FA6124319D7E00F5F312 /* DiaryViewModel.swift in Sources */,
-				F3B544552431C41E0077BE77 /* SplashView.swift in Sources */,
-				F3B544532431B55D0077BE77 /* DiaryDetail.swift in Sources */,
-				F362FA6424319DED00F5F312 /* DiaryRow.swift in Sources */,
-				F362FA5D24319D4500F5F312 /* Diary.swift in Sources */,
+				F3BD3228258701F100321FEB /* DiaryList.swift in Sources */,
+				F3BD2F7825821F4900321FEB /* DataExt.swift in Sources */,
+				F3BD2F5C2582148F00321FEB /* BiketoTibetApp.swift in Sources */,
+				F3BD3221258701D800321FEB /* Diary.swift in Sources */,
+				F3BD2F7B25821F7700321FEB /* AppHelper.swift in Sources */,
+				F3BD2F7625821F4900321FEB /* DateExt.swift in Sources */,
+				F3BD322E2587020200321FEB /* DiaryDetail.swift in Sources */,
+				F3BD3225258701E500321FEB /* DiaryViewModel.swift in Sources */,
+				F3BD322B258701FA00321FEB /* DiaryRow.swift in Sources */,
+				F3BD2F7725821F4900321FEB /* StringExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		F362F0782429FE7400F5F312 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F362F0792429FE7400F5F312 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		F362EFFC2429E9FB00F5F312 /* Debug */ = {
+		F3BD2F652582149200321FEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -382,6 +322,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -406,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -416,11 +357,10 @@
 			};
 			name = Debug;
 		};
-		F362EFFD2429E9FB00F5F312 /* Release */ = {
+		F3BD2F662582149200321FEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -443,6 +383,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -461,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -471,49 +412,49 @@
 			};
 			name = Release;
 		};
-		F362EFFF2429E9FB00F5F312 /* Debug */ = {
+		F3BD2F682582149200321FEB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2854A26D7F2E19E8BA64FF44 /* Pods-BiketoTibet.debug.xcconfig */;
+			baseConfigurationReference = E1DD8A168DC8F3DACD2F9592 /* Pods-BiketoTibet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development: Xinyang Li (4K7LWGBSQU)";
-				CODE_SIGN_STYLE = Manual;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BiketoTibet/Preview Content\"";
-				DEVELOPMENT_TEAM = KE7DGULBUC;
+				DEVELOPMENT_TEAM = 5NJQ6UMZKW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BiketoTibet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wandafilm.core;
-				PRODUCT_NAME = BiketoTibet;
-				PROVISIONING_PROFILE_SPECIFIER = wandafilm_core;
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.BiketoTibet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		F362F0002429E9FB00F5F312 /* Release */ = {
+		F3BD2F692582149200321FEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0591CFC5ED62510A3F1E8692 /* Pods-BiketoTibet.release.xcconfig */;
+			baseConfigurationReference = 959A5F828F2362E519546A75 /* Pods-BiketoTibet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development: Xinyang Li (4K7LWGBSQU)";
-				CODE_SIGN_STYLE = Manual;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BiketoTibet/Preview Content\"";
-				DEVELOPMENT_TEAM = KE7DGULBUC;
+				DEVELOPMENT_TEAM = 5NJQ6UMZKW;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BiketoTibet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wandafilm.core;
-				PRODUCT_NAME = BiketoTibet;
-				PROVISIONING_PROFILE_SPECIFIER = wandafilm_core;
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.BiketoTibet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -522,25 +463,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F362EFE52429E9F500F5F312 /* Build configuration list for PBXProject "BiketoTibet" */ = {
+		F3BD2F532582148F00321FEB /* Build configuration list for PBXProject "BiketoTibet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F362EFFC2429E9FB00F5F312 /* Debug */,
-				F362EFFD2429E9FB00F5F312 /* Release */,
+				F3BD2F652582149200321FEB /* Debug */,
+				F3BD2F662582149200321FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F362EFFE2429E9FB00F5F312 /* Build configuration list for PBXNativeTarget "BiketoTibet" */ = {
+		F3BD2F672582149200321FEB /* Build configuration list for PBXNativeTarget "BiketoTibet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F362EFFF2429E9FB00F5F312 /* Debug */,
-				F362F0002429E9FB00F5F312 /* Release */,
+				F3BD2F682582149200321FEB /* Debug */,
+				F3BD2F692582149200321FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F362EFE22429E9F500F5F312 /* Project object */;
+	rootObject = F3BD2F502582148F00321FEB /* Project object */;
 }

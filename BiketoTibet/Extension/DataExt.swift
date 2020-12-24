@@ -3,7 +3,6 @@
 //  BiketoTibet
 //
 //  Created by 李京城 on 2020/4/27.
-//  Copyright © 2020 lijingcheng. All rights reserved.
 //
 
 import Foundation

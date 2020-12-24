@@ -3,7 +3,6 @@
 //  BiketoTibet
 //
 //  Created by 李京城 on 2020/3/30.
-//  Copyright © 2020 lijingcheng. All rights reserved.
 //
 
 import SwiftUI
@@ -43,7 +42,7 @@ struct DiaryRow: View {
                 
                 Spacer()
                 
-                Image("ic_\(diary.weather ?? "")")
+                Image("ic_\(diary.weather?.rawValue ?? "")")
                     .resizable()
                     .frame(width: 32, height: 32)
                     .padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 10))
